@@ -1,12 +1,42 @@
+#title {
+    margin: auto;
+    border: solid palevioletred;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul {
+    margin-top: 20px;
+    padding-left: 0%;
+}
 
-*/
+.todo-list {
+    border: solid palevioletred;
+    background-color: pink;
+    width: 100%;
+    padding-left: 3%;
+
+}
+
+ul li {
+    border: solid palevioletred;
+    background-color: pink;
+    list-style-type: none;
+    border-top: none;
+    padding-left: 3%;
+    height: 30px;
+
+}
+
+#trash:hover {
+    background-color: blanchedalmond;
+}
+
+.task {
+    border: solid palevioletred;
+    background-color: pink;
+    border-top: none;
+}
