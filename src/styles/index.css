@@ -8,35 +8,32 @@
 
 }
 
-ul {
+.todoList {
     margin-top: 20px;
     padding-left: 0%;
 }
 
-.todo-list {
+.todosInput {
     border: solid palevioletred;
     background-color: pink;
     width: 100%;
-    padding-left: 3%;
+    padding-left: 10px;
 
 }
 
-ul li {
+.list {
     border: solid palevioletred;
     background-color: pink;
-    list-style-type: none;
     border-top: none;
-    padding-left: 3%;
     height: 30px;
-
+    padding-left: 10px;
 }
 
-#trash:hover {
-    background-color: blanchedalmond;
-}
+
 
 .task {
     border: solid palevioletred;
     background-color: pink;
     border-top: none;
+
 }
